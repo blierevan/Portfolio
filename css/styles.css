@@ -4303,7 +4303,7 @@ fieldset:disabled .btn {
 }
 
 .nav-link.disabled {
-    color: #6c757d;
+    color: black;
     pointer-events: none;
     cursor: default;
 }
@@ -4327,14 +4327,14 @@ fieldset:disabled .btn {
 }
 
 .nav-tabs .nav-link.disabled {
-    color: #6c757d;
+    color: black;
     background-color: transparent;
     border-color: transparent;
 }
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-    color: #495057;
+    color: black;
     background-color: #fff;
     border-color: #dee2e6 #dee2e6 #fff;
 }
@@ -4353,7 +4353,7 @@ fieldset:disabled .btn {
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-    color: #fff;
+    color: black;
     background-color: #ffc800;
 }
 
@@ -11199,7 +11199,7 @@ p {
 #mainNav {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #212529;
+    background-color: black;
 }
 
 #mainNav .navbar-toggler {
@@ -11253,7 +11253,7 @@ p {
     #mainNav.navbar-shrink {
         padding-top: 1rem;
         padding-bottom: 1rem;
-        background-color: #212529;
+        background-color: black;
     }
     #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
