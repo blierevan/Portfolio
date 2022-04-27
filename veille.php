@@ -51,7 +51,7 @@
                 <?php
                                 echo "<h1 style='text-align:center;'>FLUX RSS</h1>";
                                 echo "<h1 style='padding:0px 20px;'>L'informaticien</h1>";
-                                $url = "https://www.ladn.eu/tech-a-suivre/le-web3-ils-le-detestent-deja/feed/"; 
+                                $url = "https://journalducoin.com/tag/web-3/feed/"; 
                                 $rss = simplexml_load_file($url);
                                 echo '<ul>';
                                 foreach ($rss->channel->item as $item){
