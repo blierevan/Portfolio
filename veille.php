@@ -50,7 +50,7 @@
                 <div class="col-lg-12">
                 <?php
                                 echo "<h1 style='text-align:center;'>FLUX RSS</h1>";
-                                echo "<h1 style='padding:0px 20px;'>L'informaticien</h1>";
+                                echo "<h1 style='padding:0px 20px;'>Journal du coin</h1>";
                                 $url = "https://journalducoin.com/tag/web-3/feed/"; 
                                 $rss = simplexml_load_file($url);
                                 echo '<ul>';
