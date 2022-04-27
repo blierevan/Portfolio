@@ -46,12 +46,94 @@
     </header>
     <section class="page-section bg-light" id="apropos">
         <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase">A propos</h2>
-            </div>
             <div class="row">
                 <div class="col-lg-12">
+                <?php
+                                echo "<h1 style='text-align:center;'>FLUX RSS</h1>";
+                                echo "<h1 style='padding:0px 20px;'>L'informaticien</h1>";
+                                $url = "https://www.ladn.eu/tech-a-suivre/le-web3-ils-le-detestent-deja/feed/"; 
+                                $rss = simplexml_load_file($url);
+                                echo '<ul>';
+                                foreach ($rss->channel->item as $item){
+                                $datetime = date_create($item->pubDate);
+                                $date = date_format($datetime, 'd M Y, H\hi');
+                                echo '<li><a href="'.$item->link.'">'.$item->title.'</a> ('.$date.')</li>';
+                                }
+                                echo '</ul>';
 
+                                echo "<h1 style='padding:0px 20px;'>Anssi</h1>";
+                                $url2 = "https://www.ssi.gouv.fr/feed/actualite/"; 
+                                $rss = simplexml_load_file($url2);
+                                echo '<ul>';
+
+                                foreach ($rss->channel->item as $item){
+                                $datetime = date_create($item->pubDate);
+                                $date = date_format($datetime, 'd M Y, H\hi');
+                                echo '<li><a href="'.$item->link.'">'.$item->title.'</a> ('.$date.')</li>';
+                                }
+                                echo '</ul>';
+
+                                echo "<h1 style='padding:0px 20px;'>Anssi Menaces / Incidents</h1>";
+                                $url2 = "https://www.cert.ssi.gouv.fr/cti/feed/"; 
+                                $rss = simplexml_load_file($url2);
+                                echo '<ul>';
+
+                                foreach ($rss->channel->item as $item){
+                                $datetime = date_create($item->pubDate);
+                                $date = date_format($datetime, 'd M Y, H\hi');
+                                echo '<li><a href="'.$item->link.'">'.$item->title.'</a> ('.$date.')</li>';
+                                }
+                                echo '</ul>';
+                                echo "<h1 style='padding:0px 20px;'>Anssi Alerte</h1>";
+                                $url2 = "https://www.cert.ssi.gouv.fr/alerte/feed/"; 
+                                $rss = simplexml_load_file($url2);
+                                echo '<ul>';
+
+                                foreach ($rss->channel->item as $item){
+                                $datetime = date_create($item->pubDate);
+                                $date = date_format($datetime, 'd M Y, H\hi');
+                                echo '<li><a href="'.$item->link.'">'.$item->title.'</a> ('.$date.')</li>';
+                                }
+                                echo '</ul>';
+
+                                echo "<h1 style='padding:0px 20px;'>Anssi Générale</h1>";
+                                $url2 = "https://www.cert.ssi.gouv.fr/feed/"; 
+                                $rss = simplexml_load_file($url2);
+                                echo '<ul>';
+
+                                foreach ($rss->channel->item as $item){
+                                $datetime = date_create($item->pubDate);
+                                $date = date_format($datetime, 'd M Y, H\hi');
+                                echo '<li><a href="'.$item->link.'">'.$item->title.'</a> ('.$date.')</li>';
+                                }
+                                echo '</ul>';
+
+                                echo "<h1 style='padding:0px 20px;'>NIST NVD</h1>";
+                                $url2 = "https://www.nist.gov/news-events/cybersecurity/rss.xml"; 
+                                $rss = simplexml_load_file($url2);
+                                echo '<ul>';
+
+                                foreach ($rss->channel->item as $item){
+                                $datetime = date_create($item->pubDate);
+                                $date = date_format($datetime, 'd M Y, H\hi');
+                                echo '<li><a href="'.$item->link.'">'.$item->title.'</a> ('.$date.')</li>';
+                                }
+                                echo '</ul>';
+
+                                echo "<h1 style='padding:0px 20px;'>MalwareBytes RSS</h1>";
+                                $url2 = "https://blog.malwarebytes.com/feed/"; 
+                                $rss = simplexml_load_file($url2);
+                                echo '<ul>';
+
+                                foreach ($rss->channel->item as $item){
+                                $datetime = date_create($item->pubDate);
+                                $date = date_format($datetime, 'd M Y, H\hi');
+                                echo '<li><a href="'.$item->link.'">'.$item->title.'</a> ('.$date.')</li>';
+                                }
+                                echo '</ul>';
+
+
+                                ?>
                 </div>
             </div>
             <div class="row">
