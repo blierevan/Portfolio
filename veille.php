@@ -41,7 +41,7 @@
     <!-- Masthead-->
     <header class="masthead">
         <div class="container">
-            <div class="masthead-subheading">Veille Techologique</div>
+            <div class="masthead-subheading">WEB 3.0</div>
         </div>
     </header>
     <section class="page-section bg-light" id="apropos">
@@ -61,43 +61,9 @@
                                 }
                                 echo '</ul>';
 
-                                echo "<h1 style='padding:0px 20px;'>Anssi</h1>";
-                                $url2 = "https://www.ssi.gouv.fr/feed/actualite/"; 
-                                $rss = simplexml_load_file($url2);
-                                echo '<ul>';
-
-                                foreach ($rss->channel->item as $item){
-                                $datetime = date_create($item->pubDate);
-                                $date = date_format($datetime, 'd M Y, H\hi');
-                                echo '<li><a href="'.$item->link.'">'.$item->title.'</a> ('.$date.')</li>';
-                                }
-                                echo '</ul>';
-
-                                echo "<h1 style='padding:0px 20px;'>Anssi Menaces / Incidents</h1>";
-                                $url2 = "https://www.cert.ssi.gouv.fr/cti/feed/"; 
-                                $rss = simplexml_load_file($url2);
-                                echo '<ul>';
-
-                                foreach ($rss->channel->item as $item){
-                                $datetime = date_create($item->pubDate);
-                                $date = date_format($datetime, 'd M Y, H\hi');
-                                echo '<li><a href="'.$item->link.'">'.$item->title.'</a> ('.$date.')</li>';
-                                }
-                                echo '</ul>';
-                                echo "<h1 style='padding:0px 20px;'>Anssi Alerte</h1>";
-                                $url2 = "https://www.cert.ssi.gouv.fr/alerte/feed/"; 
-                                $rss = simplexml_load_file($url2);
-                                echo '<ul>';
-
-                                foreach ($rss->channel->item as $item){
-                                $datetime = date_create($item->pubDate);
-                                $date = date_format($datetime, 'd M Y, H\hi');
-                                echo '<li><a href="'.$item->link.'">'.$item->title.'</a> ('.$date.')</li>';
-                                }
-                                echo '</ul>';
 
                                 echo "<h1 style='padding:0px 20px;'>Anssi Générale</h1>";
-                                $url2 = "https://www.cert.ssi.gouv.fr/feed/"; 
+                                $url2 = "https://web.developpez.com/index/rss"; 
                                 $rss = simplexml_load_file($url2);
                                 echo '<ul>';
 
