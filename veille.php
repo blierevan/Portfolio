@@ -40,6 +40,7 @@
     </nav>
     <!-- Masthead-->
     <header class="masthead">
+
         <div class="container">
             <div class="masthead-subheading">WEB 3.0</div>
         </div>
@@ -62,8 +63,8 @@
                                 echo '</ul>';
 
 
-                                echo "<h1 style='padding:0px 20px;'>Anssi Générale</h1>";
-                                $url2 = "https://web.developpez.com/index/rss"; 
+                                echo "<h1 style='padding:0px 20px;'>Journal</h1>";
+                                $url2 = "https://aucoindubloc.com/web-3-et-decentralisation-de-linternet-daujourdhui/feed/"; 
                                 $rss = simplexml_load_file($url2);
                                 echo '<ul>';
 
