@@ -39,12 +39,6 @@
         </div>
     </nav>
     <!-- Masthead-->
-    <header class="masthead">
-
-        <div class="container">
-            <div class="masthead-subheading">WEB 3.0</div>
-        </div>
-    </header>
     <section class="page-section bg-light" id="apropos">
         <div class="container">
             <div class="row">
@@ -63,8 +57,8 @@
                                 echo '</ul>';
 
 
-                                echo "<h1 style='padding:0px 20px;'>Journal</h1>";
-                                $url2 = "https://aucoindubloc.com/web-3-et-decentralisation-de-linternet-daujourdhui/feed/"; 
+                                echo "<h1 style='padding:0px 20px;'>We Demain</h1>";
+                                $url2 = "https://www.wedemain.fr/dechiffrer/metaverse-de-quoi-sagit-il-et-faut-il-sy-interesser/feed/"; 
                                 $rss = simplexml_load_file($url2);
                                 echo '<ul>';
 
@@ -74,31 +68,6 @@
                                 echo '<li><a href="'.$item->link.'">'.$item->title.'</a> ('.$date.')</li>';
                                 }
                                 echo '</ul>';
-
-                                echo "<h1 style='padding:0px 20px;'>NIST NVD</h1>";
-                                $url2 = "https://www.nist.gov/news-events/cybersecurity/rss.xml"; 
-                                $rss = simplexml_load_file($url2);
-                                echo '<ul>';
-
-                                foreach ($rss->channel->item as $item){
-                                $datetime = date_create($item->pubDate);
-                                $date = date_format($datetime, 'd M Y, H\hi');
-                                echo '<li><a href="'.$item->link.'">'.$item->title.'</a> ('.$date.')</li>';
-                                }
-                                echo '</ul>';
-
-                                echo "<h1 style='padding:0px 20px;'>MalwareBytes RSS</h1>";
-                                $url2 = "https://blog.malwarebytes.com/feed/"; 
-                                $rss = simplexml_load_file($url2);
-                                echo '<ul>';
-
-                                foreach ($rss->channel->item as $item){
-                                $datetime = date_create($item->pubDate);
-                                $date = date_format($datetime, 'd M Y, H\hi');
-                                echo '<li><a href="'.$item->link.'">'.$item->title.'</a> ('.$date.')</li>';
-                                }
-                                echo '</ul>';
-
 
                                 ?>
                 </div>
