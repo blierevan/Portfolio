@@ -52,7 +52,7 @@
                     <p class="large ">Le Web 3 ou le Web 3.0 est la nouvelle génération d’internet. Le contrôle du web est remis aux utilisateurs. 
                         La distinction est créée par des technologies émergentes telles que la blockchain.
                          Lorsque nous communiquons via Internet, des copies de nos données sont créées et conservées sur 
-                        les serveurs d'entreprises telles que Google ou Facebook, le Web 3.0 vise principalement à connecter les données de manière décentralisée, plutôt que de les stocker dans des 
+                        les serveurs d'entreprises telles que Google ou Facebook, le Web 3.0 vise principalement à connecter les données de manière décentralisée plutôt que de les stocker dans des 
                         référentiels centralisés. Cela signifie que les machines lisent et traitent facilement le contenu généré par les utilisateurs.</p>
 
                 </div>
@@ -88,7 +88,7 @@
                                             <img src="assets/img/portfolio/meta.png" alt="" class="w-100 card-img-top">
                                         </div>
                                         <figcaption class="p-4 card-img-bottom">
-                                            <h5 class="h5 font-weight-bold mb-2 font-italic">Construire un écosystème multichaîne pour accélérer la vision du métaverse</h5>
+                                            <h5 class="h5 font-weight-bold mb-2 font-italic">Construire un écosystème multichaîne pour accélérer la vision du métaverse.</h5>
                                             <a class="btn btn-primary btn-xl text-uppercase" target="_blank" href="https://fr.techtribune.net/web3/construire-un-ecosysteme-multichaine-pour-accelerer-la-vision-du-metaverse/306480/">Article</a>
 
                                         </figcaption>
