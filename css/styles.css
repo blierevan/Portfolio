@@ -6567,6 +6567,10 @@ fieldset:disabled .btn {
     border-top-right-radius: calc(0.3rem - 1px);
 }
 
+.grand {
+    font-size: 22px;
+}
+
 .popover-header:empty {
     display: none;
 }
