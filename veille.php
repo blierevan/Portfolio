@@ -47,14 +47,16 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center">
-                    <p class="large ">Le Web 3 ou le Web 3.0 est la nouvelle génération d’internet. Le contrôle du web est remis entre les mains des utilisateurs. 
+                    <img src="assets/img/portfolio/web300.jpg"style="width:400px;height:300px;">
+                    <br><br>
+                    <p class="large ">Le Web 3 ou le Web 3.0 est la nouvelle génération d’internet. Le contrôle du web est remis aux utilisateurs. 
                         La distinction est créée par des technologies émergentes telles que la blockchain.
                          Lorsque nous communiquons via Internet, des copies de nos données sont créées et conservées sur 
-                        les serveurs d'entreprises telles que Google ou Facebook, et nous perdons ainsi le contrôle de nos données. 
-                        Le fait que nos informations soient détenues par des tiers n'est pas en soi une chose négative ; néanmoins, 
-                        lorsqu'une seule entreprise assure la médiation de l'ensemble du processus, les choses peuvent mal tourner.</p>
+                        les serveurs d'entreprises telles que Google ou Facebook, le Web 3.0 vise principalement à connecter les données de manière décentralisée, plutôt que de les stocker dans des 
+                        référentiels centralisés. Cela signifie que les machines lisent et traitent facilement le contenu généré par les utilisateurs.</p>
 
                 </div>
+                
             </div>
         </div>
     </section>
@@ -62,7 +64,6 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="text-center">
-                    <br><br><br><br>
                     <h3 class="section-heading text-uppercase">Source Google Alerts</h3>
                 </div>
                 <div class="col-lg-12">
