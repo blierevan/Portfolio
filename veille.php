@@ -49,12 +49,12 @@
                 <div class="col-lg-8 mx-auto text-center">
                     <img src="assets/img/portfolio/web300.jpg"style="width:400px;height:300px;">
                     <br><br>
-                    <p class="large ">Le Web 3 ou le Web 3.0 est la nouvelle génération d’internet. Le contrôle du web est remis aux utilisateurs. 
+                    <p class="grand">Le Web 3 ou le Web 3.0 est la nouvelle génération d’internet. Le contrôle du web est remis aux utilisateurs. 
                         La distinction est créée par des technologies émergentes telles que la blockchain.
                          Lorsque nous communiquons via Internet, des copies de nos données sont créées et conservées sur 
                         les serveurs d'entreprises telles que Google ou Facebook, le Web 3.0 vise principalement à connecter les données de manière décentralisée plutôt que de les stocker dans des 
-                        référentiels centralisés. Cela signifie que les machines lisent et traitent facilement le contenu généré par les utilisateurs.</p>
-
+                        référentiels centralisés. Cela signifie que les machines lisent et traitent facilement le contenu généré par les utilisateurs.</p><br>
+                        <p class="grand">Pour m'informer sur l'actualité en rapport avec le WEB 3.0 j'utilise les flux RSS du Journal du coin et de We Demain, Google alert par mail, la newsletter de Développez.com et aussi des recherches Google.</p>
                 </div>
                 
             </div>
@@ -64,7 +64,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="text-center">
-                    <h3 class="section-heading text-uppercase">Source Google Alerts</h3>
+                    <h3 class="section-heading text-uppercase">Source Google Alert et Développez.com</h3>
                 </div>
                 <div class="col-lg-12">
                     <div class="row">
