@@ -54,7 +54,7 @@
                          Lorsque nous communiquons via Internet, des copies de nos données sont créées et conservées sur 
                         les serveurs d'entreprises telles que Google ou Facebook, le Web 3.0 vise principalement à connecter les données de manière décentralisée plutôt que de les stocker dans des 
                         référentiels centralisés. Cela signifie que les machines lisent et traitent facilement le contenu généré par les utilisateurs.</p><br>
-                        <p class="grand">Pour m'informer sur l'actualité en rapport avec le WEB 3.0 j'utilise les flux RSS du Journal du coin et de We Demain, Google alert par mail, la newsletter de Développez.com et aussi des recherches Google.</p>
+                        <p class="grand">Pour m'informer sur l'actualité en rapport avec le WEB 3.0 ; j'utilise les flux RSS du Journal du coin et de We Demain, Google alert par mail, la newsletter de Développez.com et aussi des recherches Google.</p>
                 </div>
                 
             </div>
@@ -126,7 +126,7 @@
                                 foreach ($rss->channel->item as $item){
                                 $datetime = date_create($item->pubDate);
                                 $date = date_format($datetime, 'd M Y, H\hi');
-                                echo '<li><a href="'.$item->link.'">'.$item->title.'</a> ('.$date.')</li>';
+                                echo '<li><a href="'.$item->link.'" target="_blank">'.$item->title.'</a> ('.$date.')</li>';
                                 }
                                 echo '</ul>';
 
@@ -139,7 +139,7 @@
                                 foreach ($rss->channel->item as $item){
                                 $datetime = date_create($item->pubDate);
                                 $date = date_format($datetime, 'd M Y, H\hi');
-                                echo '<li><a href="'.$item->link.'">'.$item->title.'</a> ('.$date.')</li>';
+                                echo '<li><a href="'.$item->link.'" target="_blank">'.$item->title.'</a> ('.$date.')</li>';
                                 }
                                 echo '</ul>';
 
